@@ -5,9 +5,163 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(224, 222, 222, 0.596);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  border: 1px solid rgb(31, 36, 105);
+  width: 700px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px
+}
+
+header {
+  border-bottom: 1px solid rgb(31, 36, 105);
+  display: flex;
+  justify-content: space-around;
+}
+
+header img {
+  width: 100px;
+}
+
+.title {
+  font-size: 36px;
+  margin-top: 24px;
+  font-weight: 600;
+  color: rgb(31, 36, 105);
+
+}
+
+.title span {
+  color: #000;
+}
+
+
+.add-img-form {
+  border-bottom: 2px solid rgb(31, 36, 105);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.add-img {
+  font-size: 20px;
+  margin-top: 14px;
+  margin-left: 5px;
+
+}
+
+.blockInput input {
+  border: 1px solid rgb(31, 36, 105);
+  padding: 5px;
+  border-radius: 5px;
+  color: #000;
+  outline: none;
+}
+
+.inputss {
+  margin-right: 10px;
+}
+.buttonAdd {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(31, 36, 105);
+  padding: 5px;
+  background-color: #C4A2FC;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.buttonAdd:hover {
+  background-color: rgba(50, 54, 107, 0.993);
+  color: #fff;
+}
+
+.blockmain h2 {
+  text-align: center;
+}
+
+.blockmain ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+.img {
+  width: 100%;
+}
+
+.blocksssaf {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.img-post {
+  border-bottom: 2px solid #ccc;
+}
+.colorsersa {
+  padding: 10px 0;
+}
+.nameAuthor {
+  font-weight: bold;
+}
+
+.avatar {
+  margin-top: 10px;
+}
+
+
+.avatar input {
+  width: 80%;
+  height: 30px;;
+  border: 1px solid #ccc;
+  outline: none;
+  border-right: none;
+}
+
+.avatar button {
+  width: 19.7%;
+  height: 34px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-left: none;
+  outline: none;
+}
+
+
+.luboychi{
+  border: 1px solid rgb(31, 36, 105);
+  background-color: #D3DAE4;
+  border-radius: 5px;
+}
+
+.maincomment{
+  border-bottom: 2px solid rgb(31, 36, 105);
+  background-color: rgba(79, 83, 88, 0.164);
+}
+
+.subcomment{
+  background-color: rgba(49, 117, 80, 0.329);
+}
+
+.red {
+  color: red;
+}
+
+button {
+  border-radius: 5px;
+}
+
+
+
